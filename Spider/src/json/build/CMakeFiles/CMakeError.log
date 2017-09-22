@@ -1,0 +1,26 @@
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wcomma failed with the following output:
+Change Dir: /Users/shuotan/Desktop/Spider/Spider/src/json/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6fa1a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6fa1a.dir/build.make CMakeFiles/cmTC_6fa1a.dir/build
+Building C object CMakeFiles/cmTC_6fa1a.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -DFLAG_SUPPORTED_Wcomma -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -Wcomma -o CMakeFiles/cmTC_6fa1a.dir/src.c.o   -c /Users/shuotan/Desktop/Spider/Spider/src/json/build/CMakeFiles/CMakeTmp/src.c
+error: unknown warning option '-Wcomma' [-Werror,-Wunknown-warning-option]
+make[1]: *** [CMakeFiles/cmTC_6fa1a.dir/src.c.o] Error 1
+make: *** [cmTC_6fa1a/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wformatoverflow failed with the following output:
+Change Dir: /Users/shuotan/Desktop/Spider/Spider/src/json/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a38d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0a38d.dir/build.make CMakeFiles/cmTC_0a38d.dir/build
+Building C object CMakeFiles/cmTC_0a38d.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -DFLAG_SUPPORTED_Wformatoverflow -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -Wformat-overflow -o CMakeFiles/cmTC_0a38d.dir/src.c.o   -c /Users/shuotan/Desktop/Spider/Spider/src/json/build/CMakeFiles/CMakeTmp/src.c
+error: unknown warning option '-Wformat-overflow'; did you mean '-Wshift-overflow'? [-Werror,-Wunknown-warning-option]
+make[1]: *** [CMakeFiles/cmTC_0a38d.dir/src.c.o] Error 1
+make: *** [cmTC_0a38d/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }

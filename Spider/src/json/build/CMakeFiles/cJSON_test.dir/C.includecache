@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shuotan/Desktop/Spider/Spider/src/json/cJSON.h
+stddef.h
+-
+
+/Users/shuotan/Desktop/Spider/Spider/src/json/test.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+cJSON.h
+/Users/shuotan/Desktop/Spider/Spider/src/json/cJSON.h
+
